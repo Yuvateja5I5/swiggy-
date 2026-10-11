@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding:2px;
+            margin: 2px;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bolder;
+        }
+        #navbar{
+            height: 75px;
+            display: flex;
+            justify-content:space-between;
+            align-items:center;
+            background-color: rgba(255, 81, 0, 0.985);
+            border-radius: 15px;
+            
+        }
+        #head{
+            height:75vh;
+            width: 600px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #navbar img{
+            height: 70px;
+        }
+        #head a{
+            text-decoration: none;
+            color: black;
+        }
+        #search input{
+            padding:10px;
+            width:400px;
+            border-radius:40px;
+            
+        }
+        #head a:hover{
+            color:white;
+        }
+        #btn button{
+            width:70px;
+            border-radius: 10px;
+            background-color:orangered;
+            color: black;
+           
+        }
+        #btn button:hover{
+            color: whitesmoke;
+        }
+        
+       #container{
+        height: 80vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color:lightgray;
+        border-radius: 15px;
+       }
+       #container img{
+        height: 400px;
+        border-radius: 25px;
+        
+       }
+    #box2{
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        
+    }
+    #box3 button{
+        width: 300px;
+        border-radius: 15px;
+        background-color:rgba(255, 81, 0, 0.985) ;
+        border-radius: 15px;
+
+    }
+    .boxes{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-color: gray;
+        border-radius:20px;
+        box-shadow:10px 10px 10px rgb(58, 54, 50)
+        
+    }
+    .boxes button:hover{
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <img src="https://cdn.zeebiz.com/sites/default/files/2025/10/30/391398-swiggy.jpg?im=FitAndFill=(448,252)&format=webp&quality=medium" alt="">
+        <div id="search">
+            <input type="text" placeholder="search for food......">
+        </div>
+        <div id="head"><a href="">Swiggy carporate</a>
+            <a href=""> partner with us</a>
+            <a href="">Download the app</a></div>
+            <div id="btn">
+                <button>sign-in</button>
+            </div>
+    </div>
+    <div id="container">
+        <div class="boxes">
+            <div id="box1">
+                <img src="https://i.pinimg.com/170x/a6/07/8c/a6078ca3204f497f87009175deb7f5c1.jpg" alt="">
+            </div>
+            <div id="box2">
+                chicken biriyani
+            </div>
+            <div id="box3">
+                <button>Order now</button>
+            </div>
+            
+        </div>
+        <div class="boxes">
+            <div id="box1">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20250518/pngtree-indian-thali-overhead-food-shot-image_17313073.jpg" alt="">
+            </div>
+            <div id="box2">
+                veg-thali
+            </div>
+            <div id="box3">
+                <button>Order now</button>
+            </div>
+        </div>
+        <div class="boxes">
+            <div id="box1">
+                <img src="https://img.magnific.com/premium-photo/mutton-curry_670672-16978.jpg?semt=ais_hybrid&w=740&q=80" alt="">
+            </div>
+            <div id="box2">
+                mutton curry
+            </div>
+            <div id="box3">
+                <button>Order now</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
